@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+
+header {
+    background-image: linear-gradient(rgba(113, 74, 15, 0.758), rgba(113, 74, 15, 0.758)), url(./image/sunset.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.Logo a {
+    color: #fff;
+    padding: 0px, 20px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: rgb(0, 0, 0.7);
+}
+
+.Logo span {
+    color: rgba(163, 253, 9, 0.596);
+    font-weight: bold;
+    font-size: x-large;
+    font-size: 2rem;
+}
+
+ul {
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 00.6s ease;
+}
+
+ul li a:hover {
+    background: #fff;
+    color: #000;
+}
+
+ul li.active a {
+    background: #fff;
+    color: #000;
+}
+
+.Principale {
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+.titre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titre h1 {
+    color: #fff;
+    font-size: 70px;
+}
+
+.bouton {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bouton a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff padding 10px, 20px;
+    border: 1px solid transparent;
+
+}
+
+.btn {
+    transition: 00.6s ease;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+}
